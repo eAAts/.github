@@ -26,5 +26,3 @@ eAAts maintains the user experience of traditional delivery platforms while util
 
 - Users can leave comments after payment, which will be converted into NFTs.
 - These NFTs can be verified on OpenSea and may be used as coupons in the future.
-
-eAAts eliminates the inconveniences of traditional delivery services and maximizes user convenience by providing diverse cryptocurrency payment options.
