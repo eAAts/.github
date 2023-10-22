@@ -27,10 +27,38 @@ eAAts maintains the user experience of traditional delivery platforms while util
 - Users can leave comments after payment, which will be converted into NFTs.
 - These NFTs can be verified on OpenSea and may be used as coupons in the future.
 
-## Flow Chart
+## Used Services & Network
 - Tool : SAFE(AA SDK kit), Chainlink(Functions & Automation), Filecoin(IPFS- nftStorage & web3.stroage), PushProtocol, theGraph
 - Network : Polygon, Mantle, Scroll, Filecoin
 * each tools and network is colored differently in this chart
+```
+    graph TD
+
+    subgraph BlockChain Services
+    B((SAFE AA SDK))
+    C((Chainlink))
+    D((FileCoin))
+    E((push protocol))
+    F((theGraph))
+    end
+
+    subgraph BlockChain Networks
+      C1((Polygon))
+      C2((Mantle))
+      C3((Scroll))
+      C4((Filecoin))
+    end
+    style B fill:#90EE90 
+    style C fill:#0198E6
+    style D fill:#10D8E6
+    style E fill:#FFB6C1
+    style F fill:#aFB6C1
+    style C1 fill:#9F98E6
+    style C2 fill:#FF6F64
+    style C3 fill:#FF2F64
+    style C4 fill:#10D8E6
+```
+
 ```mermaid
 graph TD
 
