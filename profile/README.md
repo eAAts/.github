@@ -30,7 +30,7 @@ eAAts maintains the user experience of traditional delivery platforms while util
 ## Flow Chart
 - Tool : SAFE, Chainlink, Filecoin(IPFS- nftStorage & web3.stroage), PushProtocol, theGraph
 - Network : Polygon, Mantle, Scroll, Filecoin
-
+* each tools and network is colored differently in this chart
 ```mermaid
 graph TD
 
