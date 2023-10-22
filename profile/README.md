@@ -28,8 +28,8 @@ eAAts maintains the user experience of traditional delivery platforms while util
 - These NFTs can be verified on OpenSea and may be used as coupons in the future.
 
 ## Flow Chart
-Tool : SAFE, Chainlink, Filecoin(IPFS- nftStorage & web3.stroage), PushProtocol, theGraph \n
-Network : Polygon, Mantle, Scroll, Filecoin
+- Tool : SAFE, Chainlink, Filecoin(IPFS- nftStorage & web3.stroage), PushProtocol, theGraph
+- Network : Polygon, Mantle, Scroll, Filecoin
 
 ```mermaid
 graph TD
