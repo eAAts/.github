@@ -34,30 +34,22 @@ eAAts maintains the user experience of traditional delivery platforms while util
 ```mermaid
 graph TD
 
-    A[Social Login & Gas Fee Delegation => SAFE AA SDK]
-    B[Support for Various Cryptocurrency Payments => SAFE AA SDK]
-    C[Bridge - Polygon, Mantle, Scroll, Filecoin => Chainlink automation & functions]
-    D[Automated Payments => Chainlink automation & functions]
-    E[NFT Comments & Coupons => FileCoin]
-    F[Alarm/Notification => push protocol]
-    G[Client => the graph]
+    A[eAAts Client]
+    B[socialLogin & payments - SAFE AA SDK]
+    C[Automated Payments with Cross Cahin Bridge - Chainlink automation & functions]
+    D[NFT Comments & Coupons => FileCoin]
+    E[Alarm/Notification => push protocol]
+    F[Getting On chain data => the graph]
 
-    A --> B
-    B -->|Deposit in SafeWallet| C
-    C -->|Bridge to other chains| D
-    D --> E
-    E -->|Push Protocol| F
-    F --> G
-
-    subgraph Main Features
+    subgraph eAAts Service
       A --> B
       B --> C
-      C --> D
-      D --> E
-      E --> F
+      A --> D
+      A --> E
+      A --> F
     end
 
-    subgraph Chain Support
+    subgraph BlockChain Networks
       C1((Polygon))
       C2((Mantle))
       C3((Scroll))
@@ -68,29 +60,15 @@ graph TD
       C --> C4
     end
 
-    subgraph NFT Utilities
-      E1[Comments as NFTs]
-      E2[Verified on OpenSea]
-      E3[Coupons in future]
-      E4[stored in Filecoin IPFS]
-      E --> E1
-      E1 --> E2
-      E1 --> E3
-      E2 --> E4
-      E3 --> E4
-    end
+    style A fill:#0FB6C1
+    style B fill:#90EE90 
+    style C fill:#0198E6
+    style D fill:#10D8E6
+    style E fill:#FFB6C1
+    style F fill:#aFB6C1
 
-    style A fill:#ADD8E6
-    style B fill:#ADD8E6
-    style C fill:#90EE90
-    style D fill:#90EE90
-    style E fill:#FFFF64
-    style F fill:#FFB6C1
-    style G fill:#C0C0C0
-    style E4 fill:#FFFF64
-
-    style C1 fill:#C0C0C0, fontColor: #fff
-    style C2 fill:#FF6F64, fontColor:#fff
-    style C3 fill:#FF2F64, fontColor:#fff
-    style C4 fill:#FFFF64
+    style C1 fill:#9F98E6
+    style C2 fill:#FF6F64
+    style C3 fill:#FF2F64
+    style C4 fill:#10D8E6
 ```
